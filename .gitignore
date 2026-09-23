@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ruff_cache/
+
+outputs/
+concept_images/
+concept_images_cropped/
+models/lora/
+models/pretrained_models/
+llm_evals/
