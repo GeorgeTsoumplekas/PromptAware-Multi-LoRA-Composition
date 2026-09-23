@@ -132,7 +132,7 @@ bash scripts/generate_benchmark.sh
 bash scripts/crop_faces.sh
 ```
 
-**Every other concept** is cropped with SAM3 in a separate repository. Copy these crops into the same folders, one directory per LoRA ID:
+**Every other concept** is cropped with SAM3 in the [SAM3 cropping repository](https://github.com/GeorgeTsoumplekas/PromptAware-SAM3-Cropping). Copy these crops into the same folders, one directory per LoRA ID:
 
 ```text
 outputs/cropped/weighted_switch_adaptive_tailed_ablated_2_cropped/
