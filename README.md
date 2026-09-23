@@ -7,8 +7,9 @@ Official PyTorch implementation of **[Training-Free Multi-Concept LoRA Compositi
 
 ![Architecture of prompt-aware multi-LoRA composition](assets/architecture.png)
 
-> **Training-Free Multi-Concept LoRA Composition with Prompt-Aware Weighting**
->Georgios Tsoumplekas, Stella Bounareli, Vasileios Argyriou. IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.
+> **Training-Free Multi-Concept LoRA Composition with Prompt-Aware Weighting** <br>
+> Georgios Tsoumplekas, Stella Bounareli, Vasileios Argyriou <br>
+> IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026 <br>
 >
 >  **Abstract**: Low-Rank Adaptation (LoRA) successfully enables personalization in text-to-image generation by adapting pre-trained diffusion models to specific visual concepts and styles. However, extending such models to multi-concept customization remains challenging. Naively combining multiple LoRA weights or their outputs often leads to interference among concepts, resulting in degraded visual quality and reduced fidelity to the reference images of individual concepts. This paper proposes a simple yet effective approach for multi-concept customization by optimally combining the outputs of multiple LoRA modules. We leverage the relative importance of each concept during generation, as inferred from its corresponding prompt tokens and introduce two methods, W-Switch and W-Composite, that employ a prompt-aware importance weighting strategy in which each LoRA is weighted according to the semantic influence of its trigger words in the target prompt. In addition, we extend existing quantitative evaluation metrics by proposing a new image-based similarity evaluation framework that assesses image fidelity and identity preservation through comparisons between real-world reference images and automatically segmented concept regions from generated images. We evaluate our approach on the ComposLoRA testbed and demonstrate consistent improvements over existing state-of-the-art methods in terms of visual quality, identity preservation and compositionality. Qualitative evaluations, including a Large Language Model (LLM) based assessment and a user study, further validate the effectiveness of the proposed methods and align with the newly introduced quantitative image-based metrics.
 
